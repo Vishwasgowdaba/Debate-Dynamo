@@ -31,16 +31,19 @@ Students often lack real-time debate partners and critical feedback. Debate Dyna
 | **Database** | Firebase (for progress tracking)     |
 | **Hosting**  | Vercel                               |
 
-🔑 Key Features of Debate Dynamo
-🚀 Feature	🧩 Description
-🎤 Voice-to-AI Debating	- Speak directly to the AI using your microphone. Real-time speech recognition lets users experience natural debate interactions.
-⚔️ Fallacy Battle Royale Mode - A gamified, timed debate battle. Players earn or lose points/health based on their ability to identify logical fallacies in real-time.
-🧠 AI Argument Generator	- Uses GPT-4 (or Mistral) to generate persuasive, fallacy-infused arguments tailored to the chosen topic and difficulty.
-🕵️ Real-Time Fallacy Detection	- Detects and highlights logical fallacies (e.g., ad hominem, strawman) in arguments from both the user and AI.
-📊 Progress Dashboard	- Visual breakdown of user performance: fallacies caught, most-missed types, improvement trends, and session accuracy.
-🧙 Mimic Mode (Wow Factor) - 	AI debates using the styles of famous philosophers or characters (e.g., Socrates, Elon Musk) for fun and educational variety.
-🎮 Gamification Elements -	Health bars, accuracy scores, countdown timers, and victory animations to keep users engaged and motivated.
-🔁 Preloaded Debate - Topics	Built-in bank of popular, school-relevant topics with pre-generated AI responses for offline demo readiness.
+## ✨ Key Features
+
+| 🔑 **Feature**               | 🧩 **Description**                                                                 |
+|-----------------------------|-------------------------------------------------------------------------------------|
+| **Voice-to-AI Debating**     | Real-time debate with AI using browser mic input powered by Web Speech API.        |
+| **Fallacy Battle Royale Mode** | Gamified timed debate mode with health bars and score tracking for engagement.    |
+| **AI Argument Generator**    | GPT-4 / Mistral generates arguments that subtly include logical fallacies.         |
+| **Fallacy Detection Engine** | Detects fallacies like ad hominem, strawman using rule-based + pattern detection. |
+| **Progress Dashboard**       | Tracks user accuracy, most-missed fallacies, and shows growth over time.           |
+| **Mimic Mode (Wow Feature)** | AI debates in the style of figures like Socrates or Elon Musk for variety.         |
+| **Gamification Elements**    | Includes timers, sound effects, animations, and confetti to boost interactivity.   |
+| **Preloaded Debate Topics**  | Comes with ready-made debate topics and responses for demo without API calls.      |
+
 
 🛡️ Future Enhancements
 Add debate styles (Socratic, Lincoln-Douglas, etc.)

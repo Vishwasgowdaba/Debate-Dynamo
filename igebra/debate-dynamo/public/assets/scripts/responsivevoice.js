@@ -1,0 +1,1 @@
+curl https://code.responsivevoice.org/responsivevoice.js > public/assets/scripts/responsivevoice.js
